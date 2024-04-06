@@ -25,7 +25,7 @@ contract SimpleStorage {
         simpleNum = _num;
     }
 
-    function updateSimpleStr(string calldata _str) public {
+    function updateSimpleStr(string calldata _str) public virtual {
         simpleStr = _str;
     }
 
